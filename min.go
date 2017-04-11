@@ -2,7 +2,7 @@ package intregers
 
 
 
-// Return the minimun  value beetwen  all the integers arguments
+// Return the minimun  value beetwen  all the integer's arguments
 //
 // 	Example:
 //		x:=Min(5,6,3,1,2,6) //  x = 1

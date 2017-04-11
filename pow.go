@@ -2,7 +2,7 @@ package intregers
 
 
 
-// Returns the power  value of integers  argument from arg to arg0.
+// Returns the power  value of integer's  argument from arg to arg0.
 //
 // Example : 
 //  	x:=Pow(2,3) // 8

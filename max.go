@@ -2,7 +2,7 @@ package intregers
 
 
 
-// Return the maximun  value beetwen  all the integers arguments
+// Return the maximun  value beetwen  all the integer's arguments
 //
 // 	Example:
 //		x:=Max(5,6,3,1,2,6) //  x = 6
