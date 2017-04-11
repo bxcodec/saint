@@ -83,7 +83,7 @@ func TestMax(t *testing.T) {
 func TestSum(t *testing.T) {
 	var x,y int 
 	// z =15
-	y =23
+	y =-23
 	arr:=[] int {-5,-6,-3,-1,-2,-6}
 	x = Sum(arr...)
     
@@ -101,6 +101,18 @@ func TestSum(t *testing.T) {
     
 }
 
+func TestMultiply(t *testing.T) {
+	var x,y,z,result int 
+	x = 9
+	y = 3
+	result = 27
+	z = Multiply(x,y)
+
+	if z != result{
+		t.Error("Expected " , result , " got " , z)
+	}
+
+}
 func TestPow(t *testing.T) {
 	var x,y,z,result int 
 	x = 3
