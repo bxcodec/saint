@@ -1,6 +1,6 @@
 package integres
 
-// Returned sum of integers
+// Returned sum of integers  from the arguments
 //
 // 	Example:
 //		x:=Sum(5,6,3,1,2,6) //  x = 23

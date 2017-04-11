@@ -1,6 +1,6 @@
 package integres
 
-// Returns the absolute value of arg.
+// Returns the absolute value of  integer value from argument.
 //
 // 	Example:
 //		x:=Abs(-5) // x = 5
