@@ -1,6 +1,6 @@
 package integres
 
-// Max return the maximun  value beetwen  all the arguments
+// Return the maximun  value beetwen  all the arguments
 //
 // 	Example:
 //		x:=Max(5,6,3,1,2,6) //  x = 6
