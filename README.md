@@ -48,16 +48,20 @@ func main() {
     
    arr:=[] int {2,1,3,5,6}
    var x int 
-   x= intregers.Max(arr...) 
 
+   x= intregers.Max(arr...) 
    fmt.Println(x) // 6
 
-   x= intregers.Min(arr...) 
+   x= intregers.Max(4,3,1,5,7) 
+   fmt.Println(x) // 7
 
+   x= intregers.Min(arr...) 
    fmt.Println(x) // 1
 
-   x= intregers.Sum(arr...) 
+   x= intregers.Min(4,3,5,5,7) 
+   fmt.Println(x) // 3
 
+   x= intregers.Sum(arr...) 
    fmt.Println(x) // 17
 
    x = intregers.Sum(4,5)
