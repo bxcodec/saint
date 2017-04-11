@@ -1,14 +1,26 @@
 package integres
 
-// Min return the minimun  value beetwen  arg and arg0.
+// Min return the minimun  value beetwen  all the arguments
 //
 // 	Example:
-//		x:=Min(5,6) //  x = 5
-//		y:=Min(5,5) //  y = 5
-func Min(arg int , arg0 int ) int {
+//		x:=Min(5,6,3,1,2,6) //  x = 1
+//		y:=Min(5,5,32,2) //  y = 2
+//		arr:=[] int {2,1,3,5,6}
+//		x = Min(arr...) // x = 1
+func Min(arg ...int  ) int {
 	
-	if arg <=arg0{
-		return arg
-	}
-	return arg0
+	res := findMin(arg)	
+
+	return res
 }
+
+func findMin(a [] int)  int{
+	var min int = a[0] 
+	for _,arg := range a{
+		if (min>arg){
+			min = arg
+		}
+	}
+	return min
+}
+

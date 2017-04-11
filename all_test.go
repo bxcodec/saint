@@ -15,59 +15,64 @@ func TestAbs(t *testing.T) {
 
 
 func TestMin(t *testing.T) {
-	var x,y,z int 
-	z =15
-	y =-15
-	x = Min(z,y)
+	var x,y int 
+	// z =15
+	y =1
+	arr:=[] int {2,1,3,5,6}
+	x = Min(arr...)
     
 	if x != y  {
-        t.Error("Expected ", y ,  "got ", z)    
+        t.Error("Expected ", y ,  "got ", x)    
 	}
 
-	z =-15
-	y =15
-	x = Min(z,y)
-
-	if x != z  {
-        t.Error("Expected ", z ,  "got ", y)    
-	}
-
+	y =1
+	
+	x = Min(1,3)
     
-    z =-15
-	y =-15
-	x = Min(z,y)
-
-	if x != z || x != y  {
-        t.Error("Expected ", y ,  "got ", z)    
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
 	}
+
+	y =0
+	
+	x = Min(1,3,0)
     
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
+	}
+
+
+
+	
 }
 func TestMax(t *testing.T) {
-	var x,y,z int 
-	z =15
-	y =-15
-	x = Max(z,y)
+	var x,y int 
+	// z =15
+	y =6
+	arr:=[] int {2,1,3,5,6}
+	x = Max(arr...)
     
-	if x != z  {
-        t.Error("Expected ", z ,  "got ", y)    
-	}
-
-	z =-15
-	y =15
-	x = Max(z,y)
-
 	if x != y  {
-        t.Error("Expected ", y ,  "got ", z)    
+        t.Error("Expected ", y ,  "got ", x)    
 	}
 
+	y =3
+	
+	x = Max(1,3)
     
-    z =-15
-	y =-15
-	x = Max(z,y)
-
-	if x != z || x != y  {
-        t.Error("Expected ", y ,  "got ", z)    
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
 	}
+
+	y =3
+	
+	x = Max(1,3,0)
+    
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
+	}
+
+
     
 }
 
