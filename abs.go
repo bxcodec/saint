@@ -1,3 +1,6 @@
+// This library only provide some of function that 'math' doesn't support.
+// Integres also provide some function to ease in some of operations. 
+
 package intregers
 
 
