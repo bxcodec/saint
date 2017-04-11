@@ -3,9 +3,9 @@ package intregers
 
 
 
-// Returned sum of integers  from the arguments
-// Sum  array's value from the arguments
-// Sum between two or more arguments
+// Returned sum of integers  from the arguments.
+// Sum  array's value from the arguments.
+// Sum between two or more arguments.
 //
 // 	Example:
 //		x:=Sum(5,6,3,1,2,6) //  x = 23

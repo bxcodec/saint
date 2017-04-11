@@ -2,9 +2,9 @@ package intregers
 
 
 
-// Return the minimun value beetwen  all the integer's arguments
-// Return the minimun between two or more params
-// Return the minimun value from an array
+// Return the minimun value beetwen  all the integer's arguments.
+// Return the minimun between two or more params.
+// Return the minimun value from an array.
 // 	Example:
 //		x:=Min(5,6,3,1,2,6) //  x = 1
 //		y:=Min(5,5,32,2) //  y = 2
