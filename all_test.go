@@ -76,6 +76,38 @@ func TestMax(t *testing.T) {
     
 }
 
+
+func TestSum(t *testing.T) {
+	var x,y int 
+	// z =15
+	y =23
+	arr:=[] int {5,6,3,1,2,6}
+	x = Sum(arr...)
+    
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
+	}
+
+	y =44
+	
+	x = Sum(5,5,32,2)
+    
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", x)    
+	}
+
+	// y =3
+	
+	// x = Max(1,3,0)
+    
+	// if x != y  {
+ //        t.Error("Expected ", y ,  "got ", x)    
+	// }
+
+
+    
+}
+
 func TestPow(t *testing.T) {
 	var x,y,z,result int 
 	x = 3
