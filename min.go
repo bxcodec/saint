@@ -1,5 +1,4 @@
-package intreges
-
+package intregers
 
 
 
