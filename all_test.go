@@ -43,3 +43,16 @@ func TestMin(t *testing.T) {
     
 }
 
+func TestPow(t *testing.T) {
+	var x,y,z,result int 
+	x = 3
+	y = 3
+	result = 27
+	z = Pow(x,y)
+
+	if z != result{
+		t.Error("Expected " , result , " got " , z)
+	}
+
+}
+
