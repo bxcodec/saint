@@ -1,9 +1,10 @@
 package integres
 
-// Abs returns the absolute value of x.
+// Abs returns the absolute value of arg.
 //
-// 	Special cases are:
-//		Abs(±Inf) => Inf
+// 	Example:
+//		x:=Abs(-5) // x = 5
+//		x:=Abs(5)  // x = 5
 func Abs( arg int ) int {
 	
 	if arg < 0{
