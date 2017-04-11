@@ -1,12 +1,13 @@
 package integres
 
-// Max return the maximun  value beetwen  arg and arg0.
+// Max return the maximun  value beetwen  all the arguments
 //
 // 	Example:
-//		x:=Min(5,6,3,1,2,6) //  x = 1
-//		y:=Min(5,5,32,2) //  y = 2
+//		x:=Max(5,6,3,1,2,6) //  x = 6
+//		y:=Max(5,5,32,2) //  y = 32
+//
 //		arr:=[] int {2,1,3,5,6}
-//		x = Min(arr...) // x = 1
+//		x = Max(arr...) // x = 6
 func Max(arg ...int  ) int {
 	
 	res := findMax(arg)	

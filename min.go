@@ -5,6 +5,7 @@ package integres
 // 	Example:
 //		x:=Min(5,6,3,1,2,6) //  x = 1
 //		y:=Min(5,5,32,2) //  y = 2
+//
 //		arr:=[] int {2,1,3,5,6}
 //		x = Min(arr...) // x = 1
 func Min(arg ...int  ) int {
