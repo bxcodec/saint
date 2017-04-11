@@ -1,4 +1,7 @@
-package integres
+package intreges
+
+
+
 
 import (
 	"testing"

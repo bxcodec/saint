@@ -1,4 +1,7 @@
-package integres
+package intreges
+
+
+
 
 // Returns the power  value of integers  argument from arg to arg0.
 //

@@ -1,4 +1,10 @@
-package integres
+package intreges
+
+
+
+
+
+
 
 // Returns the absolute value of  integer value from argument.
 //

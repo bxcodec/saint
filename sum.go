@@ -1,4 +1,6 @@
-package integres
+package intreges
+
+
 
 // Returned sum of integers  from the arguments
 //

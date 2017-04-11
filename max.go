@@ -1,4 +1,7 @@
-package integres
+package intreges
+
+
+
 
 // Return the maximun  value beetwen  all the integers arguments
 //
