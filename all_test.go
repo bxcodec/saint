@@ -42,6 +42,34 @@ func TestMin(t *testing.T) {
 	}
     
 }
+func TestMax(t *testing.T) {
+	var x,y,z int 
+	z =15
+	y =-15
+	x = Max(z,y)
+    
+	if x != z  {
+        t.Error("Expected ", z ,  "got ", y)    
+	}
+
+	z =-15
+	y =15
+	x = Max(z,y)
+
+	if x != y  {
+        t.Error("Expected ", y ,  "got ", z)    
+	}
+
+    
+    z =-15
+	y =-15
+	x = Max(z,y)
+
+	if x != z || x != y  {
+        t.Error("Expected ", y ,  "got ", z)    
+	}
+    
+}
 
 func TestPow(t *testing.T) {
 	var x,y,z,result int 
