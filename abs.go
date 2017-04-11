@@ -1,4 +1,4 @@
-// This library only provide some of function that "math" library doesn't support especially in <b>integer</b>'s operation.
+// This library only provide some of function that "math" library doesn't support especially in integer's operation.
 // Intregres also provide some function to ease in some of operations. 
 package intregers
 
