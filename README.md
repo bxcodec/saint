@@ -29,5 +29,5 @@ You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.c
 #### Download
 
 ```shell
-go get -u github.com/bxcodec/integres
+go get -u github.com/bxcodec/intregers
 ```
