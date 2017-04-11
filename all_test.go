@@ -101,6 +101,20 @@ func TestSum(t *testing.T) {
     
 }
 
+
+func TestSubstract(t *testing.T) {
+	var x,y,z,result int 
+	x = 7
+	y = 3
+	result = 4
+	z = Substract(x,y)
+
+	if z != result{
+		t.Error("Expected " , result , " got " , z)
+	}
+
+}
+
 func TestMultiply(t *testing.T) {
 	var x,y,z,result int 
 	x = 9
