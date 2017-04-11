@@ -7,14 +7,13 @@ package intregers
 //
 // 	Example:
 //		x:=Sum(5,6,3,1,2,6) //  x = 23
-//		y:=Sum(5,5,32,2) //  y = 44
+//		y:=Sum(5,2) //  y = 7
 //
 //		arr:=[] int {2,1,3,5,6}
 //		x = Sum(arr...) // x =17
 func Sum(arg ...int  ) int {
 	
 	res := sumValue(arg)	
-
 	return res
 }
 

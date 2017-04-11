@@ -20,5 +20,8 @@ func Pow(arg int , arg0 int) int {
 		arg *= arg
 	}
 
+	if res <0{
+		panic("Integer overflow, use 'math' library for more big calculations")
+	}
 	return res
 }

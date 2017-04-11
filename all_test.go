@@ -84,7 +84,7 @@ func TestSum(t *testing.T) {
 	var x,y int 
 	// z =15
 	y =23
-	arr:=[] int {5,6,3,1,2,6}
+	arr:=[] int {-5,-6,-3,-1,-2,-6}
 	x = Sum(arr...)
     
 	if x != y  {
@@ -98,16 +98,6 @@ func TestSum(t *testing.T) {
 	if x != y  {
         t.Error("Expected ", y ,  "got ", x)    
 	}
-
-	// y =3
-	
-	// x = Max(1,3,0)
-    
-	// if x != y  {
- //        t.Error("Expected ", y ,  "got ", x)    
-	// }
-
-
     
 }
 
