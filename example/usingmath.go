@@ -3,7 +3,6 @@ package example
 
 import (
 	"fmt"
-	"github.com/bxcodec/saint"
    "math"
 )
 func UsingMath() {
