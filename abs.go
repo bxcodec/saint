@@ -3,7 +3,7 @@
 //
 // 
 //	 Warning!!		
-// 		Used only with int data type. 
+// 	 Used only with int data type. 
 package intregers
 
 
