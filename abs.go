@@ -1,8 +1,8 @@
 // This library only provide some of function that "math" library doesn't support especially in integer's operation (int data type) .
 // Intregres also provide some function to ease in some of operations.
 //
-// Warning!!
-//
+// 
+//	 Warning!!		
 // 		Used only with int data type. 
 package intregers
 
