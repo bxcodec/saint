@@ -1,11 +1,11 @@
 # Docs 
 
-## [intregers](#) 
+## [saint](#) 
 
 
 [![License](https://img.shields.io/badge/status-on%20going-yellowgreen.svg)](#)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bxcodec/intregers/blob/master/LICENSE)
-[![GoDoc](https://godoc.org/github.com/bxcodec/intregers?status.svg)](https://godoc.org/github.com/bxcodec/intregers)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/bxcodec/saint/blob/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/bxcodec/saint?status.svg)](https://godoc.org/github.com/bxcodec/saint)
 
 Go (Golang) Math Library for Integer Operations
 
@@ -21,7 +21,7 @@ Any Math operations that not support integer, can used this library
 ## Support
 
 
-You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.com/bxcodec/intregers/issues/new).
+You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.com/bxcodec/saint/issues/new).
 
 
 
@@ -30,7 +30,7 @@ You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.c
 #### Download
 
 ```shell
-go get -u github.com/bxcodec/intregers
+go get -u github.com/bxcodec/saint
 ```
 ## Example
 
@@ -40,7 +40,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/bxcodec/intregers"
+	"github.com/bxcodec/saint"
 )
 
 func main() {
@@ -49,22 +49,22 @@ func main() {
    arr:=[] int {2,1,3,5,6}
    var x int 
 
-   x= intregers.Max(arr...) 
+   x= saint.Max(arr...) 
    fmt.Println(x) // 6
 
-   x= intregers.Max(4,3,1,5,7) 
+   x= saint.Max(4,3,1,5,7) 
    fmt.Println(x) // 7
 
-   x= intregers.Min(arr...) 
+   x= saint.Min(arr...) 
    fmt.Println(x) // 1
 
-   x= intregers.Min(4,3,5,5,7) 
+   x= saint.Min(4,3,5,5,7) 
    fmt.Println(x) // 3
 
-   x= intregers.Sum(arr...) 
+   x= saint.Sum(arr...) 
    fmt.Println(x) // 17
 
-   x = intregers.Sum(4,5)
+   x = saint.Sum(4,5)
    fmt.Println(x) // 9
 }
 

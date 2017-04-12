@@ -1,4 +1,4 @@
-package intregers
+package saint
 
 // Returns the multiplication result from the  integer's  argument,  between arg to arg0.
 //
