@@ -22,6 +22,8 @@ Any Math operations that not support integer, can used this library
 
 
 You can also email <iman.tumorang@gmail.com> or file an [Issue](https://github.com/bxcodec/saint/issues/new).
+See documentation in [Godoc](https://godoc.org/github.com/bxcodec/saint)
+
 
 
 
